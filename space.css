@@ -1,0 +1,682 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+ 
+  
+    width: 100%;
+    height: 100%;
+}
+#main {
+    
+    width: 100%;
+    background-color:black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-height: 100%;
+
+
+}
+
+#page1{
+    overflow: hidden;
+    width: 100%;
+    background: url(production_id_4980049\ \(2160p\).mp4);
+    height: 100vh;
+    /* background-color:rgba(255, 255, 255, 0.075); */
+}
+#page2{ 
+    
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+
+#page1 video{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    object-position: top;
+    /* z-index: 1; */
+}
+#navbar{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+  
+} 
+#navbar2
+{
+margin-left: 10%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    width: 80%;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.575);
+    height: 15%;
+  
+} 
+#navbar img{
+    height: 200%;
+    z-index: 99;
+    object-fit: cover;
+}
+#navbar h4{
+    color: white;
+    font-size: 20px;
+    font-family: gilroy thin;
+    text-transform: capitalize;
+    z-index: 999;
+    mix-blend-mode: difference;
+}
+#navbar h5{
+    mix-blend-mode: difference;
+    color: white;
+    font-size: 20px;
+    font-family: gilroy thin;
+    text-transform: capitalize;
+    z-index: 999;
+}
+#page1 h3{
+    font-size: 22px;
+    font-family: gilroy thin;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-left: 36%;
+    margin-top: 8%;
+    mix-blend-mode: difference;
+}
+#page1 h1{
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    mix-blend-mode: difference;
+margin-left: 28%;
+margin-top: 3%;
+    letter-spacing: 10px;
+text-transform: uppercase;
+z-index: 9999999;
+color:rgba(255, 255, 255, 0.808);
+}
+#box {
+    opacity: .0;
+    position: absolute;
+    top: 65%;
+    transition: all ease 0.4s;
+    width: 75%;
+  
+    height: 10%;
+   left: 12.5%;
+    /* background-color: aliceblue; */
+    border: 0.7px solid white;
+ z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.text h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: gilroy;
+    font-weight: 100;
+    z-index: 99999;
+    font-size: 20px;
+    
+
+}
+    
+.text{
+
+    z-index: 99999;
+    height: 100%;
+    /* background-color: aqu; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 0.7px solid white;
+   
+}
+.text:nth-last-child(1){
+    color: goldenrod;
+    text-transform: uppercase;
+    font-family: gilroy thin;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 30px;    
+
+
+}
+#page2 img{
+    height: 27%;
+   left: 45%;
+   top: 120%;
+   opacity: 2;
+    position: absolute;
+
+}
+
+ 
+#page3{
+    overflow: hidden;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
+ 
+#page4{
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+ #page3 img {
+    height: 70%;
+left: 8%;
+top: 180%;
+width: 25%;
+transition: all ease 0.2s;
+position: absolute;
+object-fit: cover;
+
+}
+
+#mars{
+    width: 25%;
+    height:70%;
+
+    left: 35%;
+    top: 160%;
+    position: absolute;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/736x/ee/6c/6e/ee6c6ef185f0107b477697441451e7a5.jpg);
+   background-position: center;
+   background-size: cover;
+   
+
+}
+
+#pluto{
+    width: 25%;
+    height:70%;
+    left: 65%;
+    top: 180%;
+    position: absolute;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/564x/84/16/3b/84163bf470efdee1339c2b97c5d77d5c.jpg);
+   background-position: center;
+   background-size: cover;
+   
+
+}
+#page4 img{
+    height: 90%;
+
+    top: 210%;
+    position: absolute;
+    margin-left: 10%;
+    opacity: 1;
+    object-fit: cover;
+}
+
+#page4 h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    position: absolute;
+    left: 55%;
+    top: 241%;
+    z-index: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#page4 h2{
+    color: goldenrod;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: gilroy;
+    font-size: 20px;
+    position: absolute;
+    left: 55%;
+    z-index: 1;
+
+    top: 236%;
+    text-transform: uppercase
+}
+#page4 h3{
+    z-index: 1;
+
+    color: goldenrod;
+    font-weight: 100;
+    font-family: gilroy;
+    font-size: 15px;
+    position: absolute;
+    left: 78%;
+    top: 245.5%;
+    text-transform: uppercase
+
+}
+#page4 p{
+    z-index: 1;
+    font-size: 15px;
+    
+    line-height: 20px;
+    text-align: left;
+    color: white;
+    font-family: gilroy thin;
+    text-transform: capitalize;
+    width: 25.8%;
+    position: absolute;
+    left: 55%;
+    top: 252%
+
+}
+#page4 button{
+cursor: pointer;
+    font-size: 20px;
+    padding: 8px 23px;
+    font-family: gilroy;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: goldenrod;
+    position: absolute;
+    top: 267%;
+    left: 55%;
+    align-items: center;
+    border: 1px solid white;
+    background-color: transparent;
+}
+#page4 i{
+    cursor: pointer;
+    font-size: 25px;
+    /* margin-top: 10%; */
+    
+}
+#swap{
+    transition: all ease 0.5s;
+    width: 30%;
+    position: absolute;
+    left: 26%;
+    border-radius: 20px;
+    top: 230%;
+    transform: translate(-50%,0);
+    opacity: 0;
+    border: 1px solid goldenrod;
+    display: flex;
+    z-index: 999;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+   line-height: 80px;
+background-color:rgba(0, 0, 0, 0.651);
+}
+
+.hud h4{
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+
+}
+.hud h4 span{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#swap i{
+    font-size: 30px;
+    color: goldenrod;
+
+    position: absolute;
+    top: 3%;
+    left: 90%;
+}
+
+#page5 {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+
+}
+#navbar2 h4{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: gilroy thin;
+    font-weight: 100;
+
+}
+#page5 h1{
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    top: 330%;
+    left: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+font-weight: 100;
+    text-transform: uppercase;
+}
+#page5 p{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    top: 340%;
+    line-height: 25px;
+    width: 32%;
+    font-family: gilroy thin;
+    text-transform: capitalize;
+}
+#trip{
+    width: 40%;
+    height: 22%;
+    border: 0.7px solid white;
+
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 360%;
+    left: 9%;
+    /* background-color: aqua; */
+    align-items: center;
+  
+    
+}
+.text2
+{
+    height: 100%;
+   
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 0.7px solid white;
+}
+
+.text2 h5{
+
+    width: 70%;
+    font-size: 40px;
+    color: white;
+    font-family: gilroy thin;
+    text-transform: uppercase;
+
+
+}
+.text2 h5 span{
+    font-size: 15px;
+    
+
+}
+.text2 sup{
+    font-size: 15px;
+}
+#page5 button {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border: 1px solid rgba(218, 165, 32, 0.911);
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    position: absolute;top: 385%;
+    left: 24%;
+    border-radius: 10px;
+}
+#page5 img{
+    height: 70%;
+    object-fit: cover;
+    position: absolute;top: 325%;
+    right: 10%;
+   
+}
+#swaptwo{
+ width: 80%;
+ height: 80%;
+ position: absolute;top: 320%;
+ left: 10%;
+ opacity: 0;
+ z-index: 999;
+ border: 1px solid rgba(255, 255, 255, 0.555);
+ background-color: rgba(0, 0, 0, 0.753); transition: all ease 0.5s;
+
+ border-radius: 20px;
+
+ 
+
+ 
+}
+#swaptwo i {
+    color: white;
+    font-size: 28px;
+    position: absolute;top: 3%;
+    right: 4%;
+}
+#page6 {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+}
+#page6 video{
+    height: 100%;
+    width: 100%;
+    position: absolute;top: 400%;
+    object-fit: cover;
+    z-index: 1;
+}
+#page6 h1
+{
+    font-family: 'Roboto Condensed', sans-serif;
+color: white;
+font-size:60px;
+text-transform: uppercase;
+letter-spacing: 3px;
+z-index: 99;
+left: 50%;
+top: 430%;
+transform: translate(-50%,0);
+position: absolute;
+}
+#page6 h2
+{
+    font-family: 'Roboto Condensed', sans-serif;
+color: white;
+font-size:60px;
+text-transform: uppercase;
+letter-spacing: 3px;
+
+
+}
+#page6 p{
+font-size: 20px;
+position: absolute;
+left: 49%;
+transform: translate(-50%,0);
+position: absolute;
+top: 445%;
+width: 30%;
+line-height: 23px;
+z-index: 99;
+color: white;
+text-align: left;
+font-family: gilroy;
+text-transform: capitalize;
+}
+#page6 h6{
+font-size: 20px;
+font-weight: 100;
+width: 65%;
+line-height: 23px;
+z-index: 99;
+line-height: 21px;
+color: white;
+text-align: left;
+font-family: gilroy;
+text-transform: capitalize;
+}
+#page6 h3{
+    font-size: 20px;
+    color: goldenrod;
+    font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+z-index: 99;
+position: absolute;
+top: 424%;
+font-weight: 100;
+left: 34%;
+letter-spacing: 4px
+}
+
+
+#arrow{
+    cursor: pointer;
+    z-index: 99;
+    height: 5%;
+    width: 3%;
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 433%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    left: 68%;
+    /* background-color: aqua; */
+}
+
+#arrow i {
+    text-align: center;
+    z-index: 99;
+    color: goldenrod;
+    font-size: 25px;
+    padding: 2px 5px;
+}
+#arroww{
+    cursor: pointer;
+    z-index: 99;
+    height: 5%;
+    width: 3%;
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 433%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    left: 71%;
+    /* background-color: aqua; */
+}
+
+#arroww i {
+    text-align: center;
+    z-index: 99;
+    color: goldenrod;
+    font-size: 25px;
+    padding: 2px 5px;
+}
+
+
+#comment{
+    opacity: 0;
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    z-index: 99;
+    position: absolute;top: 420%;
+    left: 50%;
+    display: inline;
+  justify-content: space-evenly;
+  align-items: center ;
+  gap: 50px;
+}
+#comment h5{
+    font-size: 20px;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#page7{
+    width: 100%;
+    height: 108vh;
+    overflow: hidden;
+   background-color: black;
+}
+#logo
+{
+    opacity: 1;
+    width: 100%;
+height: 35%;
+position: absolute;
+top: 500%;
+left: 0%;
+/* background-color: aqua; */
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    height: 100%;
+
+}
+#page7 #moon {
+    rotate: 270deg;
+    position: absolute;
+    left: 40%;
+
+   height: 90%;
+   opacity: 1;
+    top: 543%;
+}
+#page7 #mooon{
+    height: 50%;
+    position: absolute;
+    top:536%;
+    left: 52%;
+    opacity: 1;
+
+    mix-blend-mode: difference;
+    transform: translate(-50%,0);
+}
+#tags{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    top: 590%;
+    left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+#tags h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
+    opacity: 1;
+    font-family: gilroy thin;
+    color: rgb(221, 214, 214);
+}
